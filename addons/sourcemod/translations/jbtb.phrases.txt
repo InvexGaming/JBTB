@@ -1,0 +1,105 @@
+"Phrases"
+{
+  "Removed Guard Unguard"
+  {
+    "en"  "You were removed from the {lightblue}GUARD{default} queue."
+  }
+  "Removed Guard Left T"
+  {
+    "en"  "You were removed from the {lightblue}GUARD{default} queue because you left the {yellow}PRISONERS{default} team."
+  }
+  "Removed Guard CT Ban"
+  {
+    "en"  "You were removed from the {lightblue}GUARD{default} queue because you just received a CT BAN."
+  }
+  "Guard Command Not T"
+  {
+    "en"  "You must be on the {yellow}PRISONERS{default} team to use {green}!guard"
+  }
+  "Unguard Command Not T"
+  {
+    "en"  "You must be on the {yellow}PRISONERS{default} team to use {green}!unguard"
+  }
+  "Unguard Not In Guard Queue"
+  {
+    "en"  "You are currently not in the {lightblue}GUARD{default} queue."
+  }
+  "Prisoner Command On T"
+  {
+    "en"  "You cannot use the {green}!prisoner{default} command on the {yellow}PRISONERS{default} team."
+  }
+  "Current Team Preference"
+  {
+    "#format"		"{1:s}"
+    "en"  "Your team preference is currently: {1}"
+  }
+  "Set Team Preference"
+  {
+    "#format"		"{1:s}"
+    "en"  "Your team preference is currently: {1}"
+  }
+  "RemoveGuard Admin"
+  {
+    "#format"		"{1:N},{2:N}"
+    "en"  "{lime}{1}{default} was removed from the {lightblue}GUARD{default} queue by {darkred}ADMIN {lime}{2}"
+  }
+  "RemoveGuard No Targets"
+  {
+    "en"  "No targets were found to remove from the {lightblue}GUARD{default} queue."
+  }
+  "ClearGuard Admin"
+  {
+    "#format"		"{1:N}"
+    "en"  "The {lightblue}GUARD{default} queue was cleared by {darkred}ADMIN {lime}{1}"
+  }
+  "Force Auto Pick"
+  {
+    "en"  "You were automatically moved to the SPECTATOR team because you failed to pick a team in time."
+  }
+  "Moved To Guard"
+  {
+    "en"  "You were moved to the {lightblue}GUARD{default} team."
+  }
+  "Moved To Guard Instant"
+  {
+    "en"  "You were instantly moved to the {lightblue}GUARD{default} team."
+  }
+  "Moved To Prisoner"
+  {
+    "en"  "You were moved to the {yellow}PRISONERS{default} team due to auto team balancing."
+  }
+  "Cant Join Guard PlayTime"
+  {
+    "#format"		"{1:d},{2:d}"
+    "en"  "Your PlayTime is too low to join the {lightblue}GUARD{default} team. Current PlayTime: {green}{1} mins{default} / {green}{2} mins"
+  }
+  "Cant Join Guard CT Ban"
+  {
+    "en"  "You cannot join the {lightblue}GUARD{default} team because you are currently CT banned."
+  }
+  "Already In Guard Queue"
+  {
+    "#format"		"{1:d}"
+    "en"  "You are already in the {lightblue}GUARD{default} queue in position {green}{1}"
+  }
+  "Added To Guard Queue"
+  {
+    "#format"		"{1:d}"
+    "en"  "You were added to the {lightblue}GUARD{default} queue in position {green}{1}"
+  }
+  "Map Ratio Notification"
+  {
+    "#format"		"{1:.2f}"
+    "en"  "The ratio for this map is {lightblue}1 GUARD{default} : {yellow}{1} PRISONERS"
+  }
+  "Guard Bump Notification"
+  {
+    "#format"		"{1:d}"
+    "en"  "<font color='#5D79AE'>GUARD QUEUE</font>: Moved up to position <font color='#00FF00'>{1}</font>"
+  }
+  "Incorrect Command Usage"
+  {
+    "#format"		"{1:s},{2:s}"
+    "en"  "Usage: {green}{1} {2}{default}"
+  }
+}
