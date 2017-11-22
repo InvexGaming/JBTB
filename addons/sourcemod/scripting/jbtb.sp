@@ -10,7 +10,7 @@
 #pragma newdecls required
 
 // Plugin Informaiton
-#define VERSION "1.00"
+#define VERSION "1.01"
 
 public Plugin myinfo =
 {
@@ -242,7 +242,10 @@ public void OnClientDisconnect(int client)
 {
   if (!g_Cvar_Enabled.BoolValue)
     return;
-    
+  
+  if (!IsClientInGame(client))
+    return;
+  
   int clientTeam = GetClientTeam(client);
   
   //Attempt to remove client from guard queue (or NOP if they weren't in it)
